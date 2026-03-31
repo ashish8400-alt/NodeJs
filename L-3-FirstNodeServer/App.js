@@ -1,7 +1,7 @@
 const http = require('http');
 
 
-// 1st method
+// 1st method for reseving request
 
 // function requestListener(req, res){
 // console.log(req);
@@ -9,13 +9,13 @@ const http = require('http');
 
 // http.createServer(requestListener)
 
-// 2nd method
+// 2nd method for reseving request
 
 // http.createServer(function (req, res){
 // console.log(req);
 // })
 
-// 3rd method
+// 3rd method for reseving request
 
 const server = http.createServer( (req, res) =>{
 console.log(req);
