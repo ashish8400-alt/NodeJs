@@ -70,6 +70,9 @@ res.write('<body><h1>Check Out Products</h1></body>')
 res.write('</html>');
 return res.end();
 }
+
+
+
 else if(req.url.toLowerCase() === "/submit-details" && req.method  == "POST"){
   fs.writeFileSync('user.txt', 'Ashish tiwari');
   res.statusCode = 302;
