@@ -1,8 +1,4 @@
 
-
-
-
-
 const { sumRequestHandler } = require('./sum');
 
 const requestHandler = (req, res) => {
